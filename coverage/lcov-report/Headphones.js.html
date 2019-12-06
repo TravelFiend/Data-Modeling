@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Code coverage report for Album.js</title>
+    <title>Code coverage report for Headphones.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="prettify.css" />
     <link rel="stylesheet" href="base.css" />
@@ -16,7 +16,7 @@
 <div class='wrapper'>
   <div class='pad1'>
     <h1>
-      <a href="index.html">All files</a> Album.js
+      <a href="index.html">All files</a> Headphones.js
     </h1>
     <div class='clearfix'>
       <div class='fl pad1y space-right2'>
@@ -105,31 +105,31 @@
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const mongoose = require('mongoose');
 &nbsp;
 const schema = new mongoose.Schema({
-    artist: {
+    brand: {
         type: String,
         required: true
     },
-    title: {
-        type: String,
+    bluetooth: {
+        type: Boolean,
         required: true
     },
-    genre: {
-        type: String,
+    microphone: {
+        type: Boolean,
         required: true
     },
     price: {
         type: Number,
         required: true,
-        min: 0
+        min: 0,
+        max: 120000
     },
-    totalSongs: {
-        type: Number,
-        min: 1,
-        max: 50
+    style: {
+        type: String,
+        required: true
     }
 });
 &nbsp;
-module.exports = mongoose.model('Album', schema);
+module.exports = mongoose.model('Headphones', schema);
 &nbsp;</pre></td></tr>
 </table></pre>
 <div class='push'></div><!-- for sticky footer -->
