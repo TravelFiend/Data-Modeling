@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1575652136772" clover="3.2.0">
+  <project timestamp="1575652136772" name="All files">
+    <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="15" coveredelements="15" complexity="0" loc="15" ncloc="15" packages="1" files="5" classes="5"/>
+    <file name="Album.js" path="/Users/mikeeg/alchemy/career-track/Data-Modeling/lib/models/Album.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+    </file>
+    <file name="Bike.js" path="/Users/mikeeg/alchemy/career-track/Data-Modeling/lib/models/Bike.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+    </file>
+    <file name="Book.js" path="/Users/mikeeg/alchemy/career-track/Data-Modeling/lib/models/Book.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+    </file>
+    <file name="Headphones.js" path="/Users/mikeeg/alchemy/career-track/Data-Modeling/lib/models/Headphones.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+    </file>
+    <file name="Ink.js" path="/Users/mikeeg/alchemy/career-track/Data-Modeling/lib/models/Ink.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
